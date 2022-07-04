@@ -4,6 +4,7 @@
 _ReSharper*
 **/bin
 **/obj
+.idea
 *.DotSettings
 packages
 .vs
