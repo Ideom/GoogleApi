@@ -63,6 +63,7 @@ public class HttpEngine<TRequest, TResponse>
                 case Status.Ok:
                 case Status.NotFound:
                 case Status.ZeroResults:
+                case Status.MaxRouteLengthExceeded:
                     return response;
 
                 case Status.InvalidRequest:
