@@ -196,6 +196,7 @@ public class HttpEngine<TRequest, TResponse>
                             case Status.Ok:
                             case Status.NotFound:
                             case Status.ZeroResults:
+                            case Status.MaxRouteLengthExceeded:
                                 taskCompletion.SetResult(response);
                                 break;
 
